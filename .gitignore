@@ -1,3 +1,4 @@
 # Project exclude paths
 /program-initializer/target/
 /.idea
+./pom.xml
