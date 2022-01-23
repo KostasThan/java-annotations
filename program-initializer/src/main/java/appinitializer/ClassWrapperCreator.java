@@ -36,7 +36,7 @@ public class ClassWrapperCreator {
                 hasMemberMethod = true;
             }
 
-            //add it to the correct list, depending if it has an assigned order other than the Default
+            //add it to the correct list, depending on if it has an assigned order other than the Default
             int order = m.getAnnotation(MethodInitializer.class).order();
             if (order == 0) {
                 unorderedMethods.add(m);
@@ -44,9 +44,6 @@ public class ClassWrapperCreator {
                 methodMap.put(m.getAnnotation(MethodInitializer.class).order(), m);
             }
 
-            if (order == 300000) {
-                System.out.println("HOOOOOOOOOOOOOOOOOOOOOORAY");
-            }
         }
 
         List<Method> methodsList = getMethodsListFromCollection(methodMap.values(), unorderedMethods);
