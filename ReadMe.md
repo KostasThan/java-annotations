@@ -13,7 +13,7 @@ annotations on the said method this can happen automatically.
 
 ### How to use
 
-1. Annotate the wanted classes-and methods.
+1. Annotate the wanted classes and methods.
 2. Create an Initializer with one of the two available Enums.
 3. Run the initializer.initialize() method.
 
