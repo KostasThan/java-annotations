@@ -53,3 +53,5 @@ This is a **simple library** and **some of the many limitations** are listed bel
 
 - ****If the method can throw an exception, we can specify which exception(s) we want to catch. If any thrown exception is specified in the exceptions list,
   then the code continues as expected(with retries or moving to the next method to invoke). Else the exception is wrapped in a RuntimeException
+
+## Proxy Design Pattern with reflection(under-construction)
